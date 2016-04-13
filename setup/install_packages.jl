@@ -2,7 +2,7 @@
 # Script interpreter set for JuliaBox's current Julia kernel.
 # Use 'julia install_packages.jl' if you are sure about its version
 
-packages = ["PyCall", "PyPlot", "Reactive", "Interact"]
+packages = ["PyCall", "PyPlot", "LaTeXStrings", "Reactive", "Interact"]
 
 for p in packages
     println("===========================")
