@@ -6,7 +6,7 @@ packages = ["PyCall", "PyPlot", "Reactive", "Interact"]
 
 for p in packages
     println("===========================")
-    println("Trying to add ", $p)
+    println("Trying to add ", p)
     println("===========================")
     Pkg.add(p)
 end
