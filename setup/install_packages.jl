@@ -4,7 +4,7 @@
 
 packages = ["PyCall", "PyPlot", "LaTeXStrings", "Reactive", "Interact"]
 
-println(versioninfo(true))
+println(versioninfo(false))
 
 Pkg.update()
 
