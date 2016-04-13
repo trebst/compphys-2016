@@ -6,6 +6,8 @@ packages = ["PyCall", "PyPlot", "LaTeXStrings", "Reactive", "Interact"]
 
 println(versioninfo(true))
 
+Pkg.update()
+
 for p in packages
     println("===========================")
     println("Trying to add ", p)
