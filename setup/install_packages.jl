@@ -2,7 +2,7 @@
 # Script interpreter set for JuliaBox's current Julia kernel.
 # Use 'julia install_packages.jl' if you are sure about its version
 
-packages = ["IJulia", "PyCall", "PyPlot", "LaTeXStrings", "Reactive", "Interact"]
+packages = ["IJulia", "PyCall", "PyPlot", "LaTeXStrings", "Reactive", "Interact", "ODE", "HDF5"]
 
 println(versioninfo(false))
 
